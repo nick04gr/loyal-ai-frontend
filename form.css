@@ -1,0 +1,120 @@
+body {
+  padding-top: 100px;
+  margin: auto auto;
+  width: 400px;
+  font-family: 'Montserrat';
+}
+
+.icon2 {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.button1 {
+  border: none;
+  background-color: white;
+  color: black
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 25px;
+}
+
+.button1:hover{
+  background-color: #f7a71b;
+  color: white;
+}
+
+#title {
+  font-family: 'Montserrat';
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 1.0rem
+}
+
+
+.forms{
+border-color: white;
+}
+
+.forms:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#form{
+  margin-top: 20px;
+}
+
+#p2{
+margin-left: 75px
+}
+
+.button2 {
+  border-color: #f7a71b;
+  font-family: 'Montserrat';
+  margin-left: 300px;
+  padding-top: 25px;
+  background-color: #f7a71b;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 5px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button2:hover{
+background-color: #f7a71b;
+color: white;
+}
+
+#link1{
+}
+
+#link2{
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
