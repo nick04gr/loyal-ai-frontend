@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script defer src="https://i.icomoon.io/public/temp/eb411f5211/UntitledProject/svgxuse.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/65a8b65666/UntitledProject/style-svg.css">
+    <script defer src="https://i.icomoon.io/public/temp/65a8b65666/UntitledProject/svgxuse.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="form.css">
-    <title></title>
+    <title>Login</title>
   </head>
   <body>
-    <button class="button1"type="button"><svg class="icon2 icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg></button>
+    <button class="button1" type="button"><svg class="backbutton icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg></button>
      <h1 id="title">Login</h1>
      <h3>Please sign in to continue</h3>
 
      <form action="index.html" method="post">
        <div class="input-container">
-     <i class="fa fa-user icon"></i>
-     <input class="input-field" type="text" placeholder="Email" name="usrnm">
+     <i class="fa fa-user icon"><svg class="icons icon-envelope"><use xlink:href="#icon-envelope"></use></svg></i>
+     <input class="input-field" type="text" placeholder="EMAIL" name="usrnm">
        </div>
      </form>
 
      <form action="index.html" method="post">
        <div class="input-container">
-       <i class="fa fa-user icon"></i>
-       <input class="input-field" type="text" placeholder="Email" name="usrnm">
+       <i class="fa fa-user icon"><svg class="icons icon-locked"><use xlink:href="#icon-locked"></use></svg></i>
+       <input class="input-field" type="text" placeholder="PASSWORD" name="usrnm">
+       <a class="forgot" href="#"><strong>FORGOT</strong></a>
        </div>
      </form>
 
-     <p><button class="button2" type="button" name="button">LOGIN </button></p>
-
-     <p2 id="p2">Don't have an account?<a class="link2" href="#">Sign up</a></p>
-
+     <p><button class="button2" type="button" name="button"><strong>LOGIN </strong><svg class="endbutton icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></button></p>
+    <div class="div1">
+     <p class="LastLine">Don't have an account?<a class="link2" href="#"><strong>Sign up</strong></a></p>
+    </div>
   </body>
 </html>

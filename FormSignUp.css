@@ -1,20 +1,11 @@
 body {
   margin: 30px 30px 0px 30px;
   width: auto;
-  height: auto;
+  height:auto;
   font-family: 'Montserrat';
 }
 
-.backbutton {
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-.icons {
+.icon1 {
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -23,17 +14,39 @@ body {
   fill: currentColor;
 }
 
-.endbutton {
+.icon2 {
   display: inline-block;
-  width: 1.5em;
-  height: 1.0em;
+  width: 2em;
+  height: 2em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
 }
 
+.icon3 {
+  color: black;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon4 {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+
+
+
 .button1{
-  padding: 3px 4px;
+  display: inline-block;
+  padding: 5px 6px;
   border: none;
   background-color: white;
   -webkit-transition-duration: 0.4s;
@@ -49,15 +62,9 @@ body {
 
 
 
-h3 {
-  font-size: 1.0rem
-}
-
-.div1 {
-margin:auto;
-}
 
 .button2 {
+  display: inline-block;
   border: none;
   letter-spacing: 1px;
   background-color: #f7a71b;
@@ -73,10 +80,8 @@ background-color: #f7a71b;
 cursor: pointer;
 }
 
-#link1{
-}
 
-.link2{
+.link {
   margin-left: 10px;
   color: #f7a71b;
   text-decoration: none;
@@ -86,7 +91,6 @@ cursor: pointer;
 .input-container {
   display: flex;
   width: 100%;
-  margin-bottom: 15px;
 }
 
 .input-container:hover{
@@ -101,6 +105,7 @@ cursor: pointer;
   color: black;
   min-width: 50px;
   text-align: center;
+  margin-top: 10px;
 }
 
 /* Style the input fields */
@@ -111,6 +116,7 @@ cursor: pointer;
   padding: 10px;
   outline: none;
   font-family: 'Montserrat';
+  margin-top: 10px;
 }
 
 .input-field:focus {
@@ -119,6 +125,7 @@ cursor: pointer;
 .LastLine {
   margin-top: 100px;
   text-align: center;
+  font-family: 'Montserrat';
 }
 
 .forgot {
@@ -127,7 +134,7 @@ cursor: pointer;
   background: none;
   padding: 10px;
   color: #f7a71b;
-
+  font-family: 'Montserrat';
   text-decoration: none;
 }
 
