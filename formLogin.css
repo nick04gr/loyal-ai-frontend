@@ -1,0 +1,131 @@
+ html{
+   height: 100%;
+ }
+
+ body {
+  margin: 30px 10px 0px 10px;
+  width: auto;
+  height: auto;
+  font-family: 'Montserrat';
+}
+
+h3 {
+  font-size: 1.0rem
+}
+
+.mail-icon {
+  display: block;
+  text-indent: -9999px;
+  width: 24px;
+  height: 24px;
+  background: url('assets/icons/mail.svg');
+  background-size: 19px 19px;
+  background-repeat: no-repeat;
+  padding: 0px 0px 10px 0px;
+  margin-top: 15px;
+  border-bottom: 1px solid #EBECF0;
+  padding-right: 5px;
+}
+
+
+.lock-icon {
+  display: block;
+  text-indent: -9999px;
+  width: 24px;
+  height: 24px;
+  background: url('assets/icons/lock.svg');
+  background-size: 19px 19px;
+  background-repeat: no-repeat;
+  padding: 0px 0px 10px 0px;
+  margin-top: 15px;
+  border-bottom: 1px solid #EBECF0;
+  padding-right: 5px;
+}
+
+.submit-button {
+  display: flex;
+}
+
+.submit-button__text {
+  margin-right: 0.5rem;
+}
+
+.submit-button__icon {
+
+}
+
+.button {
+  display: flex;
+  border: none;
+  letter-spacing: 1px;
+  background-color: #f7a71b;
+  color: white;
+  border-radius: 25px;
+  padding: 1rem 1rem;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  justify-content: flex-end;
+}
+
+.button:hover{
+background-color: #f7a71b;
+cursor: pointer;
+}
+
+.link-forgot {
+  display: flex;
+  border: none;
+  border-bottom: 1px solid #EBECF0;
+  background: none;
+  color: #f7a71b;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.link-forgot__text{
+  margin: auto;
+}
+
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+/* Style the form icons */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.icon svg {
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* Style the input fields */
+.input-field {
+  border: none;
+  border-bottom: 1px solid #EBECF0;
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  outline: none;
+  font-family: 'Montserrat';
+}
+
+.last-div {
+  margin: 4rem auto;
+  text-align: center;
+  }
+
+.last-div__text {
+
+}
+.link-div__link{
+  margin-left: 10px;
+  color: #f7a71b;
+  text-decoration: none;
