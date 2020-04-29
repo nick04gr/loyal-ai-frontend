@@ -1,8 +1,8 @@
 html {
- width: 100vw;
- height: 100vh;
- margin: 0;
- padding: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,82 +14,84 @@ body {
 
 .background-detail {
   content: "";
-  transform: translate(50%,-50%);
-	right: 0;
-	top: 0;
-	position: absolute;
-	width: 5rem;
-	height: 5rem;
-	border-radius: 50%;
-	background-color: #fccc83;
-	padding: 40px;
+  transform: translate(50%, -50%);
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #fccc83;
+  padding: 40px;
   border: 20px solid #f9b349;
-  clip-path: polygon(0 50%,50% 50%, 50% 100%,0 100%);
+  clip-path: polygon(0 50%, 50% 50%, 50% 100%, 0 100%);
 }
 
 h3 {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* Style the form icons */
-.icons-in-forms{
+
+.icons-in-forms {
   width: 1rem;
-	margin-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #ebecf0;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ebecf0;
 }
 
 .link-forgot {
-	display: flex;
-	border: none;
-	border-bottom: 1px solid #ebecf0;
-	background: none;
-	color: #f7a71b;
-	text-decoration: none;
-	padding: 10px;
+  display: flex;
+  border: none;
+  border-bottom: 1px solid #ebecf0;
+  background: none;
+  color: #f7a71b;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .link-forgot__text {
-	margin: auto;
+  margin: auto;
 }
 
 .input-container {
-	display: flex;
-	width: 100%;
-	margin-bottom: 15px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 /* Style the input fields */
+
 .input-field {
-	border: none;
-	border-bottom: 1px solid #ebecf0;
-	width: 100%;
-	padding: 10px 5px 10px 5px;
-	outline: none;
-	font-family: 'Montserrat';
+  border: none;
+  border-bottom: 1px solid #ebecf0;
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  outline: none;
+  font-family: 'Montserrat';
 }
 
 .submit-button {
-  transform: translate(-100%,0);
+  transform: translate(-100%, 0);
   left: 100%;
   position: relative;
-	display: flex;
-	border: none;
-	letter-spacing: 1px;
-	background-image: linear-gradient(to right, #f6c759, #fda03a);
-	color: white;
-	border-radius: 25px;
-	padding: 1rem 1rem;
+  display: flex;
+  border: none;
+  letter-spacing: 1px;
+  background-image: linear-gradient(to right, #f6c759, #fda03a);
+  color: white;
+  border-radius: 25px;
+  padding: 1rem 1rem;
 }
 
 .submit-button__text {
-	margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .submit-button__icon {
-	display: inline-block;
-	width: 1em;
-	height: 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
 }
 
 .last-div {
@@ -97,14 +99,14 @@ h3 {
   height: 150px;
 }
 
-.last-div__text{
+.last-div__text {
   margin: auto;
   position: relative;
   bottom: 0;
 }
 
 .last-div__link {
-	margin-left: 10px;
-	color: #f7a71b;
-	text-decoration: none;
+  margin-left: 10px;
+  color: #f7a71b;
+  text-decoration: none;
 }
